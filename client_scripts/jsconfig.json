@@ -1,0 +1,19 @@
+{
+    "include": [
+        "./**/*.js"
+    ],
+    "compilerOptions": {
+        "baseUrl": "../../.probe/client/probe-types",
+        "lib": [
+            "ES5",
+            "ES2015"
+        ],
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "rootDir": ".",
+        "typeRoots": [
+            "../../.probe/client/probe-types"
+        ],
+        "target": "ES2015"
+    }
+}

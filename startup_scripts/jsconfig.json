@@ -1,0 +1,20 @@
+{
+    "include": [
+        "./**/*.js",
+        "src/common/item_modify.js"
+    ],
+    "compilerOptions": {
+        "baseUrl": "../../.probe/startup/probe-types",
+        "lib": [
+            "ES5",
+            "ES2015"
+        ],
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "rootDir": ".",
+        "typeRoots": [
+            "../../.probe/startup/probe-types"
+        ],
+        "target": "ES2015"
+    }
+}
